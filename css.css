@@ -11,12 +11,28 @@
  }
 
 
+ /*------------------------------------------
+ ------------------NAVBAR--------------------
+ ------------------------------------------*/
+
+
  .nav1 {
      padding: 13px;
      background-color: var(--white); 
      letter-spacing: 5px;
      font-weight: bolder;
  }
+
+
+ .nav1 a:hover {
+     color: #1abc9c !important;
+     font-weight: bolder;
+ }
+
+
+ /*------------------------------------------
+ -------MIDDLE CONTAINER (WHO AM I)----------
+ ------------------------------------------*/
 
 
  .who{
