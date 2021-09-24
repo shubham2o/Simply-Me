@@ -77,3 +77,14 @@
      font-size: 18px;
      line-height: 30px;
  }
+
+
+ .what a{
+     background-color: var(--black);
+     color: var(--white);
+ }
+ .what a:hover {
+     color: var(--greenishblue);
+     border: 2px solid var(--greenishblue);
+     font-weight: bolder;
+ }
