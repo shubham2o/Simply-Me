@@ -2,6 +2,7 @@
      --white:#FFFFFF;
      --black:#000000;
      --greenishblue:#1abc9c;
+     --pencilgray:#474e5d;
  }
 
 
@@ -14,7 +15,6 @@
  /*------------------------------------------
  ------------------NAVBAR--------------------
  ------------------------------------------*/
-
 
  .nav1 {
      padding: 13px;
@@ -34,7 +34,6 @@
  ------MIDDLE CONTAINER (WHO AM I - ONE)-----
  ------------------------------------------*/
 
-
  .who{
      background-color: var(--greenishblue);
      text-align: center;
@@ -46,20 +45,34 @@
  }
 
 
- .who_p1{
+ .who_p1,
+ .what_p1 {
      margin-bottom: 45px;
      margin-top: 27px;
  }
 
 
- .who_p2{
+ .who_p2,
+ .what_p2 {
      margin-top: 60px;
  }
 
 
  /*------------------------------------------
- ------MIDDLE CONTAINER (WHO AM I - TWO)-----
+ --------MIDDLE CONTAINER (WHAT AM I)--------
  ------------------------------------------*/
 
+ .what{
+     background-color: var(--pencilgray);
+     text-align: center;
+     position: relative;
+     padding: 60px;
+     color: var(--white);
+     font-size: 24px;
+ }
 
 
+ .what_p2 {
+     font-size: 18px;
+     line-height: 30px;
+ }
