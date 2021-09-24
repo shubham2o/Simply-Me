@@ -56,7 +56,7 @@
      background-color: var(--greenishblue);
      text-align: center;
      position: relative;
-     margin-top: 73px;
+     margin-top: 70px;
      padding: 60px;
      color: var(--white);
      font-size: 24px;
@@ -152,3 +152,42 @@
  /*-------------------------------------------
  ---------BOTTOM CONTAINER (FOOTER)-----------
  -------------------------------------------*/
+
+ .bottom_container {
+     background-color: #2f2f2f;
+     text-align: center;
+     position: relative;
+     padding: 100px;
+     color: var(--white);
+     font-size: 18px;
+     padding-top: 80px;
+     margin-top: 50px;
+ }
+
+
+ .bottom_container a {
+     color: var(--greenishblue);
+ }
+
+
+ .bottom_container a:link,
+ .bottom_container a:visited {
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+
+ .bottom_container a:hover {
+     text-shadow: 1px 1px var(--greenishblue);
+     font-weight: bolder;
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+
+ .bottom_container a:active {
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 14px;
+ }
