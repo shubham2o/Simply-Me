@@ -76,6 +76,7 @@
  .what_p2 {
      font-size: 18px;
      line-height: 30px;
+     margin-bottom: 25px;
  }
 
 
@@ -86,9 +87,16 @@
  }
 
 
- .what a:hover,
+ .what a:hover {
+     color: var(--greenishblue);
+     border: 2px solid var(--greenishblue);
+     font-weight: bolder;
+ }
+
+
  .what a:active {
      color: var(--greenishblue);
      border: 2px solid var(--greenishblue);
      font-weight: bolder;
+     margin: 30px;
  }
