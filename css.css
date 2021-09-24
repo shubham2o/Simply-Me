@@ -79,13 +79,15 @@
  }
 
 
- .what a {
+ .what a:link,
+ .what a:visited {
      background-color: var(--black);
      color: var(--white);
  }
 
 
- .what a:hover {
+ .what a:hover,
+ .what a:active {
      color: var(--greenishblue);
      border: 2px solid var(--greenishblue);
      font-weight: bolder;
