@@ -1,11 +1,25 @@
  :root {
      --white:#FFFFFF;
      --black:#000000;
+     --greenishblue:#29BB89;
  }
- 
+
+
+ body {
+     font: 15px montserrat, sans-serif;
+ }
+
+
  .nav1 {
      padding: 15px;
      background-color: var(--white); 
-     font: 15px montserrat, sans-serif;
      letter-spacing: 5px;
+ }
+
+
+ .who{
+     background-color: var(--greenishblue);
+     text-align: center;
+     position: relative;
+     margin-top: -20px;
  }
