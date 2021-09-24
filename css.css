@@ -1,0 +1,11 @@
+ :root {
+     --white:#FFFFFF;
+     --black:#000000;
+ }
+ 
+ .nav1 {
+     padding: 15px;
+     background-color: var(--white); 
+     font: 15px montserrat, sans-serif;
+     letter-spacing: 5px;
+ }
