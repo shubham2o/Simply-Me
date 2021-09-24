@@ -18,16 +18,18 @@
 
  .nav1 {
      padding: 15px;
-     color: var(--white);
      letter-spacing: 5px;
-     font-weight: bolder;
+ }
+
+
+ .nav1 a {
+     color: var(--white) !important;
  }
 
 
  .nav1 a:hover {
-     color: #1abc9c !important;
+     color: var(--greenishblue) !important;
      font-weight: bolder;
-     text-shadow: 2px 1px var(--white);
  }
 
 
