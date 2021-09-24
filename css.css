@@ -17,8 +17,8 @@
  ------------------------------------------*/
 
  .nav1 {
-     padding: 13px;
-     background-color: var(--white); 
+     padding: 15px;
+     color: var(--white);
      letter-spacing: 5px;
      font-weight: bolder;
  }
@@ -27,6 +27,7 @@
  .nav1 a:hover {
      color: #1abc9c !important;
      font-weight: bolder;
+     text-shadow: 2px 1px var(--white);
  }
 
 
@@ -38,7 +39,7 @@
      background-color: var(--greenishblue);
      text-align: center;
      position: relative;
-     margin-top: -20px;
+     margin-top: 80px;
      padding: 60px;
      color: var(--white);
      font-size: 24px;
