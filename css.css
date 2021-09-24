@@ -64,7 +64,8 @@
 
 
  .who_p1,
- .what_p1 {
+ .what_p1,
+ .where_p1 {
      margin-bottom: 45px;
      margin-top: 27px;
  }
@@ -93,7 +94,10 @@
  .what_p2 {
      font-size: 18px;
      line-height: 30px;
-     margin-bottom: 25px;
+     margin: 0px -30px 25px;
+     text-indent: -7px;
+     padding: 4px;
+     
  }
 
 
@@ -116,4 +120,30 @@
      border: 2px solid var(--greenishblue);
      font-weight: bolder;
      margin: 30px;
+ }
+
+
+ /*-------------------------------------------
+ -----MIDDLE CONTAINER (WHERE TO FIND ME)-----
+ -------------------------------------------*/
+
+ .where {
+     background-color: var(--white);
+     text-align: center;
+     position: relative;
+     padding: 55px;
+     color: var(--black);
+     font-size: 24px;
+ }
+
+
+ .row,
+ .row .where_div {
+     margin-top: 30px;
+ }
+
+
+ .where .row .where_div {
+     font-size: 18px;
+     line-height: 30px;
  }
