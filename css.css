@@ -172,7 +172,6 @@
 
  .bottom_container a:link,
  .bottom_container a:visited {
-     font-weight: bold;
      text-decoration: none;
      font-size: 18px;
  }
@@ -187,7 +186,6 @@
 
 
  .bottom_container a:active {
-     font-weight: bold;
      text-decoration: none;
      font-size: 14px;
  }
