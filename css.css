@@ -165,15 +165,11 @@
  }
 
 
- .bottom_container a {
-     color: var(--greenishblue);
- }
-
-
  .bottom_container a:link,
  .bottom_container a:visited {
      text-decoration: none;
      font-size: 18px;
+     color: var(--greenishblue);
  }
 
 
@@ -188,4 +184,5 @@
  .bottom_container a:active {
      text-decoration: none;
      font-size: 14px;
+     color: var(--greenishblue);
  }
