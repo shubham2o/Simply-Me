@@ -19,17 +19,32 @@
  .nav1 {
      padding: 15px;
      letter-spacing: 5px;
+     background-color: var(--black);
  }
 
 
  .nav1 a {
      color: var(--white) !important;
+     background-color: var(--black) !important;
  }
 
 
  .nav1 a:hover {
      color: var(--greenishblue) !important;
      font-weight: bolder;
+ }
+
+
+ #navbar-color,
+ #navbar-color:hover .icon-bar {
+     background-color: var(--black);
+     border: 0px;
+ }
+
+
+  #navbar-color .icon-bar,
+  #navbar-color:hover {
+     background-color: var(--greenishblue);
  }
 
 
